@@ -1,0 +1,31 @@
+{
+	"debug":false,
+	"source":"./docs/manual",
+	"destination":"./dist/manual",
+	"excludes":["plugin/"],
+	"access": ["public", "protected", "private"],
+	"autoPrivate": true,
+	"unexportIdentifier": false,
+	"undocumentIdentifier": true,
+	"builtinExternal": true,
+	"index": "./README.md",
+	"package": "./package.json",
+	"coverage": true,
+	"includeSource": true,
+	"manual": {
+		"globalIndex": false,
+		"asset":"./docs/assets",
+		"index":"./docs/manual/INDEX.md",
+		"overview":["./docs/manual/GETTING_STARTED.md"],
+		"usage":[],
+		"design":[],
+		"installation":["./docs/manual/INSTALL.md"],
+		"configuration":[],
+		"advanced":[],
+		"faq":[],
+		"example":[],
+		"tutorial":[]
+	},
+	"styles": ["./docs/css/site.css"],
+	"_plugins": [{"name": "./docs/plugin/site-plugin.js"}]
+}

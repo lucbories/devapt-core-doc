@@ -1,0 +1,15 @@
+{
+	"debug":false,
+	"source":"../devapt-core-common/src/js/",
+	"destination":"dist/api_common",
+	"excludes":[],
+	"access": ["public", "protected", "private"],
+	"autoPrivate": true,
+	"unexportIdentifier": false,
+	"undocumentIdentifier": true,
+	"builtinExternal": true,
+	"package": "./package.json",
+	"coverage": true,
+	"includeSource": true,
+	"manual": {}
+}
