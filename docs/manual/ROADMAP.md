@@ -1,4 +1,4 @@
-# Devapt - Roadmap
+# Roadmap
 
 
 ## 2.0.x   breaking changes and new features (CURRENT)

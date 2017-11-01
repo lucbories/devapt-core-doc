@@ -1,11 +1,11 @@
-# Devapt - Projects map
+# Projects map
 
 Devapt projects refcard.
 
 
 ## Development Map
 
-# Projects core dependencies (package.json)
+### Projects core dependencies (package.json)
 
 |Project|devapt-core-common|devapt-core-browser|devapt-core-services|devapt-core-server|
 |------|------|------|------|------|
@@ -23,7 +23,7 @@ Devapt projects refcard.
 |devapt-features-labs|x|x|||
 |devtools|x||x||
 
-# Projects features dependencies (package.json)
+### Projects features dependencies (package.json)
 
 |Project|devapt-features-foundation6|devapt-features-cytoscape|devapt-features-sparklines|devapt-features-labs|devtools|
 |------|------|------|------|------|------|

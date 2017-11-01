@@ -1,4 +1,4 @@
-# Devapt - Tutorials - Hello World
+# Tutorials - Hello World
 
 Start a server which display "Hello Wolrd"
 

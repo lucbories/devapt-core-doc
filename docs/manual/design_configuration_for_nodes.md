@@ -1,13 +1,11 @@
-# Devapt - Features - nodes configuration
-
-[MAIN CONFIGURATION](https://github.com/lucbories/devapt-core-doc/tree/master/docs/manual/features/CONFIGURABLE.md)
+## Design - Configuration for Nodes
 
 
-## Description
+### Description
 Topology nodes description.
 
 
-## Format
+### Format
 Provide a list of distributed nodes with:
  * node name
  * is_master: node is the topology master node ? (true/false)
@@ -21,7 +19,7 @@ Provide a list of distributed nodes with:
    * security: server security configuration
 
 
-## Example
+### Example
 ```js
 {
 	"nodes":{

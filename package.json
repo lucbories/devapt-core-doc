@@ -17,7 +17,6 @@
     "dist": "./dist"
   },
   "scripts": {
-    "build_manuals": "esdoc -c ./.esdoc-manuals.json > ./tmp/esdoc-manuals.out",
     "build_common": "esdoc -c ./.esdoc-common.json > ./tmp/esdoc-common.out",
     "build_server": "esdoc -c ./.esdoc-server.json > ./tmp/esdoc-server.out",
     "build_services": "esdoc -c ./.esdoc-services.json > ./tmp/esdoc-services.out",
@@ -40,13 +39,21 @@
     "devapt-core-server": ">=2.0.0",
     "devapt-core-services": ">=2.0.0",
     "cheerio": "^0.22.0",
-    "esdoc": ">=0.5.2",
+    "esdoc": ">=1.0.0",
+    "esdoc-standard-plugin": ">=1.0.0",
+    "esdoc-lint-plugin": ">=1.0.0",
+    "esdoc-coverage-plugin": ">=1.0.0",
+    "esdoc-accessor-plugin": ">=1.0.0",
+    "esdoc-type-inference-plugin": ">=1.0.0",
+    "esdoc-external-ecmascript-plugin": ">=1.0.0",
+    "esdoc-brand-plugin": ">=1.0.0",
+    "esdoc-undocumented-identifier-plugin": ">=1.0.0",
+    "esdoc-unexported-identifier-plugin": ">=1.0.0",
+    "esdoc-integrate-manual-plugin": ">=1.0.0",
+    "esdoc-integrate-test-plugin": ">=1.0.0",
+    "esdoc-publish-html-plugin": ">=1.0.0",
     "fs-extra": "^3.0.1"
   },
   "devDependencies": {
-    "del": ">=2.2.0",
-    "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-load-plugins": ">=1.2.0",
-    "parallelshell": "^2.0.0"
   }
 }

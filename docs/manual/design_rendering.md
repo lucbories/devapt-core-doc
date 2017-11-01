@@ -1,6 +1,13 @@
-# Devapt - Features - Rendering
+## Design - Rendering feature
 
-## Description
+Applications can render pages on server side or on browser side.
+
+Render engine accepts rendering plugins:
+* default (simple HTML tags)
+* Foundation (ZURB HTML/CSS rendering framework)
+* jQuery UI
+
+### Description
 Rendering is the process of making an Html content.
 
 Devapt allows you to render page content on the server or on the browser side or all both together.
@@ -21,7 +28,7 @@ A work in progress is to give plugins component class to the browser with browse
 
 
 
-## At startup
+### At startup
 A page is rendered by the server and send to the browser.
 
 The initial page contains:
@@ -51,7 +58,7 @@ Line three update anchors path with application url prefix.
 
 
 
-## Rendering result process
+### Rendering result process
 At startup <DIV id="content"> is empty and initial RenderingResult contains a virtual tree of the "content" tag.
 
 For example, "content" virtual tree children can contain:
@@ -79,7 +86,7 @@ compo_content.get_dom_element().appendChild( compo_c.get_dom_element() )
 
 
 
-## Rendering component
+### Rendering component
 Each rendering component is a base class of devapt/src/browser/Component.
 A Component has a private Rendering instance named "_rendering" which manage dom and vnode rendering actions.
 
@@ -98,7 +105,7 @@ Devapt comes is a set of rendering components but it is expandable with plugins 
 
 
 
-## Example
+### Example
 For example, at the beginning you have a /myapp/home route to display your home page.
 
 Server receives a /myapp/home request:
@@ -143,7 +150,7 @@ window.document.devapt().runtime().ui(page2_menubar).render()
 
 
 
-## Status
+### Status
 
 Usable but work in progress.
 Need Test, Optimization and code review.
@@ -151,14 +158,14 @@ Need Test, Optimization and code review.
 
 
 
-## For Devapt users:
+### For Devapt users:
 Coming soon.
 ```javascript
 ```
 
 
 
-## For Devapt contributers:
+### For Devapt contributers:
 Coming soon.
 
 

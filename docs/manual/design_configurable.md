@@ -1,6 +1,11 @@
-# Devapt - Features - Configurable
+## Design - Configurable without code feature
 
-## Description
+Devapt has for first principle to build applications without coding common features.
+Why writing code to offer REST api, metrics, role based security, database access...
+Concentrate your coding forces to write uncommon business code.
+
+
+### Description
 Devapt first principle to build applications without coding common features.
 
 Why write code for REST api, metrics, role based security, database access...
@@ -9,7 +14,7 @@ It is best to concentrate on the business code.
 
 
 
-## Status
+### Status
 
 
 Configuration providers:
@@ -23,16 +28,16 @@ Distributed configuration loading: DONE 2.0
 
 
 
-## FORMAT:
+### Format
 
 
-# Source
+#### Source
 Settings are loaded from a Json object.
 Json providers could be: files, sql db, nosql db...
 For instance only file provider is available.
 
 
-# Fisrt level format:
+#### Fisrt level format:
 First levels are the sub-tree at the Json tree root.
 This level describes the runtime world.
 
@@ -117,40 +122,37 @@ With a mix of inline and files settings:
 
 
 
-# Second level settings:
+#### Second level settings:
 
-### For nodes
-[NODES CONFIGURATION](https://github.com/lucbories/devapt-core-doc/tree/master/docs/manual/features/CONFIGURABLE_NODES.md)
-
-
-### For tenants
-[TENANTS CONFIGURATION](https://github.com/lucbories/devapt-core-doc/tree/master/docs/manual/features/CONFIGURABLE_TENANTS.md)
+###### For nodes
+<a href="./design_configuration_for_nodes.html">NODES CONFIGURATION</a>
 
 
-### For deployments
-[DEPLOYMENTS CONFIGURATION](https://github.com/lucbories/devapt-core-doc/tree/master/docs/manual/features/CONFIGURABLE_DEPLOYMENTS.md)
+###### For tenants
+<a href="./design_configuration_for_tenants.html">TENANTS CONFIGURATION</a>
 
 
-### For plugins
-[PLUGINS CONFIGURATION](https://github.com/lucbories/devapt-core-doc/tree/master/docs/manual/features/CONFIGURABLE_PLUGINS.md)
+###### For deployments
+<a href="./design_configuration_for_deployments.html">DEPLOYMENTS CONFIGURATION</a>
 
 
-### For security
-[SECURITY CONFIGURATION](https://github.com/lucbories/devapt-core-doc/tree/master/docs/manual/features/CONFIGURABLE_SECURITY.md)
+###### For plugins
+<a href="./design_configuration_for_plugins.html">PLUGINS CONFIGURATION</a>
 
 
-### For loggers
-[LOGGERS CONFIGURATION](https://github.com/lucbories/devapt-core-doc/tree/master/docs/manual/features/CONFIGURABLE_LOGGERS.md)
+###### For security
+<a href="./design_configuration_for_security.html">SECURITY CONFIGURATION</a>
 
 
-### For traces
-[TRACES CONFIGURATION](https://github.com/lucbories/devapt-core-doc/tree/master/docs/manual/features/CONFIGURABLE_TRACES.md)
+###### For loggers
+<a href="./design_configuration_for_loggers.html">LOGGERS CONFIGURATION</a>
 
 
+###### For traces
+<a href="./design_configuration_for_traces.html">TRACES CONFIGURATION</a>
 
 
-
-### For templates:
+###### For templates:
 The second level "templates" collection stores all templates definition.
 A template can be used everywhere.
 

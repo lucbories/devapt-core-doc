@@ -1,12 +1,18 @@
-# Devapt - Features - Servers
+## Design - Servers feature
+
+Devapt provides builtin servers for common usages (Restify, Express, SocketIO).
+
+But you can code your own server.
+
+A server is attached to a node (a couple of hostname and port).
 
 
-## Description
+### Description
 Servers provide featured services.
 
 
 
-## Status
+### Status
 Express server: make middlewares use configurables.
 
 Restify server: make middlewares use configurables, check authorizations.
@@ -15,19 +21,19 @@ Need Test, Optimization and code review.
 
 
 
-## Builtin servers
+### Builtin servers
 Devapt provides builtin servers for common usages.
 But you can code your own server.
 
-### EXPRESS
+#### EXPRESS
 Serve static pages or middleware generated content.
 
-### RESTIFY
+#### RESTIFY
 Serve RESTfull content.
 
 
 
-### For Devapt users:
+#### For Devapt users:
 Configure servers in nodes.json
 A JSON nodes servers declaration:
 ```
@@ -150,21 +156,21 @@ A server has
 
 
 
-## For Devapt contributers:
+### For Devapt contributers:
 
 
 
 
-## Thanks
+### Thanks
 
-### Express
+#### Express
 Strongloop provides a wonderfull de facto standard library, Express.
 It's a very popular project, used by many people.
 
 [Express](https://github.com/strongloop/express)
 
 
-### Restify
+#### Restify
 Restify helps to easily provides a RESTfull server.
 
 [Express](https://github.com/.../restify)

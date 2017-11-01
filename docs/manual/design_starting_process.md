@@ -1,7 +1,7 @@
-# Devapt runtime starting process
+## Design - runtime starting process
 
 
-## Starting code
+### Starting code
 
 ```js
 var devapt = require('devapt/base/runtime'); // for ES5
@@ -45,9 +45,9 @@ runtime.load(runtime_settings)
 
 
 ---------------------
-## Starting sequence brief
+### Starting sequence brief
 
-### import runtime from 'devapt/base/runtime'
+#### import runtime from 'devapt/base/runtime'
 The first time the file is loaded, the singleton instance of Runtime class is created.
 
 Runtime.constructor is called to define instance attributes:
@@ -77,7 +77,7 @@ Security.constructor
 * call AuthorizationManager.constructor
 
 
-### runtime.load
+#### runtime.load
 Load method register runtime settings and call a sequence of executable instances.
 * RuntimeStage0Executable
 * RuntimeStage1Executable
@@ -89,9 +89,9 @@ Load method register runtime settings and call a sequence of executable instance
 
 
 ---------------------
-## Starting sequence details
+### Starting sequence details
 
-### Runtime loading stage 0 - RuntimeStage0Executable
+#### Runtime loading stage 0 - RuntimeStage0Executable
 * create and load runtime node
 * create bus instance or connect to an existing bus
 
@@ -117,7 +117,7 @@ Node.load (not for a master node)
 
 
 
-### Runtime loading stage 1 - RuntimeStage1Executable
+#### Runtime loading stage 1 - RuntimeStage1Executable
 * load master apps settings
 * load security settings
 * load loggers settings
@@ -135,7 +135,7 @@ AuthenticationManager.load
 !!! AuthenticationPluginPassportLocalDb needs users Model which is defined in stage 3
 
 
-### Runtime loading stage 2 - RuntimeStage2Executable
+#### Runtime loading stage 2 - RuntimeStage2Executable
 * create node servers (for master node only)
 * create services (for master node only)
 
@@ -175,7 +175,7 @@ for each service config of node settings services
 
 
 
-### Runtime loading stage 3 - RuntimeStage3Executable
+#### Runtime loading stage 3 - RuntimeStage3Executable
 * create Database instances (connexions), call db.load, call runtime.resources.add(db)
 * create Module instances, call module.load, call runtime.modules.add(module)
 * loop on modules resources and call runtime.resources.add(res_obj) for each one
@@ -187,7 +187,7 @@ loop on resources settings and create Resource instances (Model, View, Menu, Men
 
 
 
-### Runtime loading stage 4 - RuntimeStage4Executable
+#### Runtime loading stage 4 - RuntimeStage4Executable
 If node is master
 * create Application instances from runtime settings
 * call application.load
@@ -202,7 +202,7 @@ Application.load
 
 
 
-### Runtime loading stage 5 - RuntimeStage5Executable
+#### Runtime loading stage 5 - RuntimeStage5Executable
 * enable servers (for master node only)
 
 if node is master node, call runtime.node.start()

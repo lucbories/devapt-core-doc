@@ -1,8 +1,19 @@
-# Devapt - Features - Services
+## Design - Services feature
+
+Devapt enables features for applications with services.
+
+A service is enabled on a server on a node.
+
+A service is provided and consumed.
+
+Builin services:
+* static assets router
+* resources definitions router
+* CRUD operations router
+* middleware router for functions as f(request,response,next)
 
 
-
-## Description
+### Description
 A service is a feature linked on a server and added to an application.
 
 Builtin services are:

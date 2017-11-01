@@ -1,10 +1,6 @@
 
-# Devapt
+# Installation
 
-Dynamic, reactive, configurable application for Node.js.
-
-
-## Installation
 
 Via npm on Node:
 ```

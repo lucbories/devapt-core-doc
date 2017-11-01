@@ -12,17 +12,14 @@ jsconfig.json
 .vscode/settings.json
 .vscode/taskss.json
 
+build
 .vscode
-docs/api
-docs/html
-docs/html_part
+docs/old
 dist
-tmp
-unused
+tmp/*
 node_modules
 bower_components
 
-db_connexions.ini
 unused_*
 todo_*
 old_*

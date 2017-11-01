@@ -1,53 +1,15 @@
+# Usage
 
-# Devapt v2
+To install a devapt application, follow:
+```
+cd apps/
+git clone git://github.com/lucbories/devapt-app-testbus.git
+cd devapt-app-testbus
 
-With DEVAPT you can easily develop powerfull application.
-Built-in features cover many important subjects as: authentication, restfull, http server, distributed services, logs, metrics...
-Main characteristics of DEVAPT architecture is dynamic behaviors, reactive programming, object oriented ES6 javascript, gulp build chain
-All of this on NodeJS.
+npm install --save-prod
+```
 
-
-## Samples and tutorials
-Some usefull applications are:
- * DEVTOOLS which actualy display settings, logs, buses messages, metrics and topology. [DEVTOOLS app project](https://github.com/lucbories/devapt-app-devtools/)
- * TESTBUS wich helps to test distributed features: basic ping/pong communication, messaging, logs, topology. [TESTBUS app project](https://github.com/lucbories/devapt-app-testbus/)
- * TESTUI wich helps to test user interface features. [TESTUI app project](https://github.com/lucbories/devapt-app-testui/)
-
-
-## Devapt projects structure
-All devapt-* github repositories have the same structure: a master branch with the last tagged tree, a develop branch with latest comited updates and tags.
-
-All devapt-* projects have a common folders tree:
-project root\
- * bower_components (only for browser features)
- * build: building scripts
- * dist: build codes and resources
- * dist/js: build javascript codes
- * dist/resources: build resources configuration
- * node_modules: nodes packages
- * public: shared assets for browsers
- * public/app_name/css: CSS assets
- * public/app_name/html: HTML assets
- * public/app_name/img: images assets
- * public/app_name/js: javascript assets
- * public/favico.png: browser project icon
- * src: project sources
- * src/js: javascript sources
- * src/resources: resources configuration sources
- * tmp: temporary application files (logs)
- * bower.json: browser packages configuration
- * gulpfile.js: main build script
- * LICENSE: project license
- * package.json: nodes packages configuration
- * README.MD: project description
-
-Versionning use standard method: M.m.p with M is a major change, m a minor change, p a patch.
-
-
-
-## Installation
-
-Via npm on Node:
+To create an empty application from scratch (not recommended for devapt newbies):
 
 ```
 cd my_app
@@ -74,9 +36,8 @@ Create folders tree:
 ```
 
 
-## Usage
 
-Create your first Devapt based HTML page in pub/assets/html/mypage.html:
+Create your first Devapt based HTML page in public/assets/html/mypage.html:
 ```html
 <html>
 
@@ -417,37 +378,4 @@ Example with settings in many files:
 Repeat on each files on the same manner.
 
 ```
-
-
-
-## Development
-
-```
-git clone git://github.com/lucbories/devapt-core-common.git
-cd devapt-core-common
-npm install
-npm test
-```
-
-
-
-## Versions
-
-- 2.0.0: Published
-
-
-
-## Contribution
-
-Feel free to contribute, you're welcome.
-
-Check issues and solve it:
-[file issues](https://github.com/lucbories/devapt)
-
-Submit your work:
-[pull requests](https://github.com/lucbories/devapt/pulls)
-
-If you submit a pull request, please be sure to add or update corresponding
-test cases, and ensure that `npm test` continues to pass.
-
 

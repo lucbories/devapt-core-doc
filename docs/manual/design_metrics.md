@@ -1,6 +1,12 @@
-# Devapt - Features - Metrics
+## Design - Metrics feature
 
-## Description
+Applications optimization and analyze need some metrics.
+
+Usefull libraries offer builin metrics support but each one with its own format.
+
+Devapt provides a unique metrics format per server domain: http request, messaging request...
+
+### Description
 Applications optimization and analyze need some metrics.
 
 Usefull libraries offer builin metrics support but each one with its own format.
@@ -35,7 +41,7 @@ Each metrics feature has its corresponding metrics service to publish metrics ou
 * MetricsHttpService
 
 
-## Status
+### Status
 Features are finished for Bus, Host, NodeJs and Http metrics.
 
 The metrics server is operational.
@@ -45,7 +51,7 @@ See devapt-devtools project for a full example of metrics services usage.
 [DEVTOOLS Project](https://github.com/lucbories/devapt-devtools/)
 
 
-## For Devapt users:
+### For Devapt users:
 ```
     // GET NODE
     let node = ...
@@ -94,7 +100,7 @@ See devapt-devtools project for a full example of metrics services usage.
 
 
 
-## For Devapt contributers:
+### For Devapt contributers:
 
 Metrics classes are:
 | Class file | Class name and description |

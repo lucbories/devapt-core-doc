@@ -1,6 +1,10 @@
-# Devapt - Features - Messaging
+## Design - Messaging feature
 
-## Description
+Devapt provides messages bus server and client classes.
+
+Distributed nodes communicates each others with simple JSON messages.
+
+### Description
 A distributed application needs to provide a communication between its nodes.
 
 Devapt provides messages buses to ensure JSON messages exchange.
@@ -24,7 +28,7 @@ Server A1			Server A2
 
 
 
-## Status
+### Status
 The nodes, servers and services are ready for use.
 The messaging bus is ready too but it sould be tested on many host.
 
@@ -34,21 +38,21 @@ Need Test, Optimization and code review.
 
 
 
-## For Devapt users:
+### For Devapt users:
 Coming soon.
 ```
 ```
 
 
 
-## For Devapt contributers:
+### For Devapt contributers:
 Coming soon.
 
 
 
-## Thanks
+### Thanks
 
-### SimpleBus
+#### SimpleBus
 AJ Lopez provides many specialized projects.
 It's a great work.
 One of them is SimpleBus, a messaging system between a server and its clients (local or remote).
