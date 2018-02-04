@@ -22,31 +22,36 @@ Built-in features cover many important subjects as: authentication, restfull, ht
 Main characteristics of DEVAPT architecture is dynamic behaviors, reactive programming, object oriented ES6 javascript, gulp build chain
 All of this on NodeJS.
 
+My main initial purpose was to provide me a simple way to play with new scientifical or computer concepts by writing some labs applications.
+
+
 
 ## Where to find Devapt ?
 
 Devapt is a set of core libraries to help producing applications:
-* [devapt-core-common project](https://github.com/lucbories/devapt-core-common)
-* [devapt-core-server project](https://github.com/lucbories/devapt-core-server)
-* [devapt-core-services project](https://github.com/lucbories/devapt-core-services)
-* [devapt-core-browser project](https://github.com/lucbories/devapt-core-browser)
 
-Projects API:
-* [devapt-core-common documentation](https://lucbories.github.io/api_common/index.html)
-* [devapt-core-server documentation](https://lucbories.github.io/api_server/index.html)
-* [devapt-core-services documentation](https://lucbories.github.io/api_services/index.html)
-* [devapt-core-browser documentation](https://lucbories.github.io/api_browser/index.html)
+|Project|GitHub|API Manual|NPM|Demo|Issues|
+|------|------|------|------|------|------|
+|devapt-core-common|[Repo](https://github.com/lucbories/devapt-core-common)|[Manual](http://lucbories.github.io/api_common/index.html)|[NPM](https://www.npmjs.com/package/devapt-core-common)|[Demo](http://demo.devapt.org)|[Issues](https://github.com/lucbories/devapt-core-common/issues)|
+|devapt-core-browser|[Repo](https://github.com/lucbories/devapt-core-browser)|[Manual](http://lucbories.github.io/api_browser/index.html)|[NPM](https://www.npmjs.com/package/devapt-core-browser)|[Demo](http://demo.devapt.org)|[Issues](https://github.com/lucbories/devapt-core-browser/issues)|
+|devapt-core-server|[Repo](https://github.com/lucbories/devapt-core-server)|[Manual](http://lucbories.github.io/api_server/index.html)|[NPM](https://www.npmjs.com/package/devapt-core-server)|[Demo](http://demo.devapt.org)|[Issues](https://github.com/lucbories/devapt-core-server/issues)|
+|devapt-core-services|[Repo](https://github.com/lucbories/devapt-core-services)|[Manual](http://lucbories.github.io/api_services/index.html)|[NPM](https://www.npmjs.com/package/devapt-core-services)|[Demo](http://demo.devapt.org)|[Issues](https://github.com/lucbories/devapt-core-services/issues)|
 
 
-Others libraries provides usefull features.
+Others libraries provide usefull features.
 
-[GitHub project](https://github.com/lucbories/devapt-core-common)
+|Project|GitHub|API Manual|NPM|Demo|Issues|
+|------|------|------|------|------|------|
+|devapt-features-foundation6|[Repo](https://github.com/lucbories/devapt-features-foundation6)|Todo|[NPM](https://www.npmjs.com/package/devapt-features-foundation6)|[Demo](http://demo.devapt.org)|[Issues](https://github.com/lucbories/devapt-features-foundation6/issues)|
 
-[NPM package](https://www.npmjs.com/package/devapt-core-common)
 
-[API](https://lucbories.github.io)
+Applications are good examples:
 
-[MANUAL](https://lucbories.github.io)
+|Project|GitHub|API Manual|NPM|Demo|Issues|
+|------|------|------|------|------|------|
+|devapt-app-testbus|[Repo](https://github.com/lucbories/devapt-app-testbus)|Todo|[NPM](https://www.npmjs.com/package/devapt-app-testbus)|[Demo](http://demo.devapt.org)|[Issues](https://github.com/lucbories/devapt-app-testbus/issues)|
+
+
 
 
 ## What does Devapt offer for developpers ?
